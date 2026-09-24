@@ -91,7 +91,7 @@ header h1 {
     line-height: 1.2;
 }
 
-.poste {
+.metier {
     font-size: 1.25rem;
     margin-bottom: 1rem;
 }
@@ -212,7 +212,7 @@ hr {
     margin-bottom: 0.6rem;
 }
 
-.formation, .stages, .experiance{
+.formation, .stages, .experience{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -223,12 +223,12 @@ hr {
     transition: background-color 0.2s,border-color 0.2s;
 }
 
-.formation:hover, .stages:hover, .experiance:hover {
+.formation:hover, .stages:hover, .experience:hover {
     border-left-color: var(--turquoise);
     background-color: var(--gris);
 }
 
-.formation h3, .stages h3, .experiance h3{
+.formation h3, .stages h3, .experience h3{
     font-family: "Raleway",Arial,sans-serif;
     font-size: 0.95rem;
     font-weight: 700;
